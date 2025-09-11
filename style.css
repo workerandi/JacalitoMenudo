@@ -1,0 +1,31 @@
+.container {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ffe4c4;
+  color: #2c363f;
+}
+h1 {
+  font-size: 92px;
+  margin: 30px auto;
+  padding: auto;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+}
+p {
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  border-radius: 25px;
+  background-color: #d65108;
+  color: #2c363f;
+  margin: auto;
+  padding: 5px 15px;
+  font-size: 30px;
+}
