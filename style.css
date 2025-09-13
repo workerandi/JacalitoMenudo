@@ -3,6 +3,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #ffe4c4;
   color: #2c363f;
+  border-radius: 25px;
 }
 h1 {
   font-size: 92px;
@@ -21,6 +22,7 @@ p {
 ul {
   list-style-type: none;
 }
+
 button {
   border-radius: 25px;
   background-color: #d65108;
@@ -28,4 +30,12 @@ button {
   margin: auto;
   padding: 5px 15px;
   font-size: 30px;
+}
+
+.menuItems {
+  background-color: #d65108;
+}
+
+.features {
+  background-color: #d65108;
 }
