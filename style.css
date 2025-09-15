@@ -5,16 +5,23 @@
   color: #2c363f;
   border-radius: 25px;
 }
+img {
+}
+
 h1 {
+  font-weight: bold;
   font-size: 92px;
   margin: 30px auto;
   padding: auto;
 }
 h2 {
+  font-weight: bold;
   font-size: 36px;
 }
 h3 {
+  font-weight: bold;
   font-size: 24px;
+  margin: 10px;
 }
 p {
   font-size: 20px;
@@ -32,10 +39,12 @@ button {
   font-size: 30px;
 }
 
-.menuItems {
-  background-color: #d65108;
-}
-
+.menuItems,
 .features {
   background-color: #d65108;
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Space inside */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+
+  font-weight: bold;
 }
