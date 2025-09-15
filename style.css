@@ -4,30 +4,35 @@
   background-color: #ffe4c4;
   color: #2c363f;
   border-radius: 25px;
+  margin: 25px auto;
 }
 img {
+  border-radius: 25px;
 }
 
 h1 {
   font-weight: bold;
   font-size: 92px;
-  margin: 30px auto;
-  padding: auto;
+  margin: auto;
+  padding: 30px;
 }
 h2 {
   font-weight: bold;
   font-size: 36px;
+  padding: 10px;
 }
 h3 {
   font-weight: bold;
   font-size: 24px;
-  margin: 10px;
+  margin: 15px;
 }
 p {
   font-size: 20px;
 }
 ul {
   list-style-type: none;
+  padding: 0;
+  font-size: 20px;
 }
 
 button {
@@ -38,13 +43,26 @@ button {
   padding: 5px 15px;
   font-size: 30px;
 }
+button:hover {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
 
-.menuItems,
-.features {
+footer {
+  padding: 30px;
+}
+
+.menuItems {
   background-color: #d65108;
-  border-radius: 15px; /* Rounded corners */
-  padding: 20px; /* Space inside */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 10px;
   font-weight: bold;
+}
+
+.menuItems:hover {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
 }
